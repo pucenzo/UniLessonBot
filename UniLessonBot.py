@@ -13,7 +13,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-"""--------------------------------------------------------------------------SCRAPING CLASSIROOM OCCUPATION WEB PAGE----------------------------------------------------------------------------------------"""
+"""--------------------------------------------------------------------------SCRAPING CLASSROOM OCCUPATION WEB PAGE----------------------------------------------------------------------------------------"""
 
 
 current_date = datetime.today() #memorizzo la data corrente
@@ -77,7 +77,7 @@ else:
     print("Errore nella richiesta HTTP:", response.status_code)
 
 
-"""-----------------------------------------------------------------------------PARTE CREAZIONE E GESTIONE BOT TELEGRAM-------------------------------------------------------------------------------------"""
+"""-----------------------------------------------------------------------------TELEGRAM BOT CREATION AND HANDLE PART-------------------------------------------------------------------------------------"""
 
 
 TOKEN = "MY BOT TOKEN" #token ottenuto dal bot father 
